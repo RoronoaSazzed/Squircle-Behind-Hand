@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squircle Behind Hand</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .parentDiv {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+      .width450p {
+        width: 450px;
+      }
+
+      #sq1,
+      #sq2,
+      #sq3,
+      #sq4 {
+        transform-box: fill-box;
+        transform-origin: center;
+        opacity: 0;
+        animation: squircleIncrease 4s ease-in-out infinite forwards;
+      }
+
+      @keyframes squircleIncrease {
+        20% {
+          opacity: 1;
+        }
+        60% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+          transform: scale(2);
+        }
+      }
+
+      #sq2 {
+        animation-delay: 1s;
+      }
+
+      #sq3 {
+        animation-delay: 2s;
+      }
+
+      #sq4 {
+        animation-delay: 3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentDiv">
+      <div class="width450p">
+        <svg
+          width="100%"
+          min-height="0"
+          viewBox="0 0 1200 1200"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g id="hand-squircle">
+            <rect width="1200" height="1200" fill="white" />
+            <rect
+              id="Jamie_Aleck_COMMS01 1"
+              width="1200"
+              height="1200"
+              fill="url(#pattern0)"
+            />
+            <g id="squircle">
+              <g id="sq1">
+                <path
+                  id="Vector"
+                  d="M563.615 822.707C616.944 808.417 646.591 800.474 660.765 775.922C674.94 751.371 666.996 721.724 652.707 668.395C638.417 615.066 630.473 585.419 605.922 571.244C581.37 557.069 551.723 565.013 498.394 579.302C445.065 593.592 415.418 601.536 401.244 626.087C387.069 650.639 395.013 680.286 409.302 733.615C423.592 786.944 431.536 816.591 456.087 830.765C480.639 844.94 510.286 836.996 563.615 822.707Z"
+                  stroke="#2FFC83"
+                  stroke-width="3.98684"
+                />
+              </g>
+              <g id="sq2">
+                <path
+                  id="Vector_2"
+                  d="M563.615 822.707C616.944 808.417 646.591 800.474 660.765 775.922C674.94 751.371 666.996 721.724 652.707 668.395C638.417 615.066 630.473 585.419 605.922 571.244C581.37 557.069 551.723 565.013 498.394 579.302C445.065 593.592 415.418 601.536 401.244 626.087C387.069 650.639 395.013 680.286 409.302 733.615C423.592 786.944 431.536 816.591 456.087 830.765C480.639 844.94 510.286 836.996 563.615 822.707Z"
+                  stroke="#2FFC83"
+                  stroke-width="3.98684"
+                />
+              </g>
+              <g id="sq3">
+                <path
+                  id="Vector_3"
+                  d="M563.615 822.707C616.944 808.417 646.591 800.474 660.765 775.922C674.94 751.371 666.996 721.724 652.707 668.395C638.417 615.066 630.473 585.419 605.922 571.244C581.37 557.069 551.723 565.013 498.394 579.302C445.065 593.592 415.418 601.536 401.244 626.087C387.069 650.639 395.013 680.286 409.302 733.615C423.592 786.944 431.536 816.591 456.087 830.765C480.639 844.94 510.286 836.996 563.615 822.707Z"
+                  stroke="#2FFC83"
+                  stroke-width="3.98684"
+                />
+              </g>
+              <g id="sq4">
+                <path
+                  id="Vector_4"
+                  d="M563.615 822.707C616.944 808.417 646.591 800.474 660.765 775.922C674.94 751.371 666.996 721.724 652.707 668.395C638.417 615.066 630.473 585.419 605.922 571.244C581.37 557.069 551.723 565.013 498.394 579.302C445.065 593.592 415.418 601.536 401.244 626.087C387.069 650.639 395.013 680.286 409.302 733.615C423.592 786.944 431.536 816.591 456.087 830.765C480.639 844.94 510.286 836.996 563.615 822.707Z"
+                  stroke="#2FFC83"
+                  stroke-width="3.98684"
+                />
+              </g>
+            </g>
+            <rect
+              id="only-hand"
+              x="353"
+              y="629"
+              width="468"
+              height="571"
+              fill="url(#pattern1)"
+            />
+          </g>
+          <defs>
+            <pattern
+              id="pattern0"
+              patternContentUnits="objectBoundingBox"
+              width="1"
+              height="1"
+            >
+              <use xlink:href="#image0_102_12" transform="scale(0.000833333)" />
+            </pattern>
+            <pattern
+              id="pattern1"
+              patternContentUnits="objectBoundingBox"
+              width="1"
+              height="1"
+            >
+              <use
+                xlink:href="#image1_102_12"
+                transform="scale(0.00213675 0.00175131)"
+              />
+            </pattern>
+            <image
+              id="image0_102_12"
+              data-name="Jamie_Aleck_COMMS01.jpg"
+              width="1200"
+              height="1200"
+              xlink:href="https://cdn.shopify.com/s/files/1/2664/7162/files/Jamie_Aleck_COMMS01.jpg?v=1639594495"
+            />
+            <image
+              id="image1_102_12"
+              data-name="only-hand.png"
+              width="468"
+              height="571"
+              xlink:href="https://cdn.shopify.com/s/files/1/2664/7162/files/only-hand.png?v=1639596270"
+            />
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
